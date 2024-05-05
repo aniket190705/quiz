@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: lightcyan;
+}
+
+.container {
+  background-color: white;
+  width: 558px;
+  height: 540px;
+}
+
+.question label {
+  font-size: 20px;
+
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+}
+
+.question label h1 {
+  text-align: center;
+  padding: 30px;
+}
+.question {
+  margin-top: 20px;
+}
+
+.option label {
+  font-size: 30px;
+  padding: 10px;
+
+  font-family: "Times New Roman", Times, serif;
+}
+
+.one {
+  margin-top: 45px;
+}
+.option * {
+  margin-bottom: 20px;
+}
+
+input {
+  margin-left: 20px;
+}
+
+.submit {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  flex: 0.8;
+  background-color: rgb(96, 190, 249);
+  color: white;
+  border: 0;
+  height: 35px;
+  border-radius: 5px;
+  font-size: 25px;
+  margin-bottom: 20px;
+  transition: 0.2s ease-in-out;
+  letter-spacing: 1.2px;
+  font-weight: 700;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: rgb(51, 174, 251);
+  transition: 0.2s ease-in-out;
+}
+
+.marks-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 540px;
+}
+.marks h1 {
+  margin-bottom: 20px;
+  font-size: 35px;
+  text-align: center;
+}
