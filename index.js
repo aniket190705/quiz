@@ -44,7 +44,7 @@ var data = [{
     'b': 'Cascading style sheet',
     'c': 'Jason Object Notation',
     'd': 'None of the above',
-    'ans': '1'
+    'ans': '2'
 
 }
 
